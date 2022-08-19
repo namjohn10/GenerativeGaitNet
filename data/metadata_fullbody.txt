@@ -1,0 +1,525 @@
+state_type 11
+phase_type 1
+metabolic_type 4
+selfcollision false
+action_type 0
+use_abs_step false
+use_newspd false
+use_muscle true
+use_excitation false
+use_motionoptimization false
+use_contractilestate true
+use_adaptivesampling false
+use_timewarping true
+use_stepwarping false
+use_sym true
+use_displacement false
+use_stride 0.75 1.0
+use_phase 0.75 1.25
+use_imitation false
+use_locoprin true
+use_init_negative false
+use_critical_damping true
+use_adaptivekp false
+use_passive_regul false
+cascading_type 1
+is_torqueclip false
+rot_diff_weight 1.0
+linear_acc_weight 1.0
+angular_acc_weight 0.0
+metabolic_weight 1.0
+constant_pd_parameter true
+kp 200
+con_hz 30
+sim_hz 600   
+skel_file /data/skeleton_v11.xml
+muscle_file /data/muscle_v6.xml
+bvh_file /data/motion/walk.bvh true
+inference_per_sim 1
+action_scale 0.04
+phase_scale 0.001
+use_newphase false
+joint_param
+joint_end
+muscle_param
+L_ab1 0.65 1
+R_ab1 0.65 1
+L_ab2 0.72 1
+R_ab2 0.72 1
+L_ab3 0.72 1
+R_ab3 0.72 1
+L_ab4 0.72 1
+R_ab4 0.72 1
+L_ab5 0.72 1
+R_ab5 0.72 1
+L_Internal_Oblique 0.63 1
+R_Internal_Oblique 0.63 1
+L_Internal_Oblique1 0.61 1
+R_Internal_Oblique1 0.61 1
+L_Internal_Oblique2 0.69 1
+R_Internal_Oblique2 0.69 1
+L_Abductor_Pollicis_Longus 0.77 1
+R_Abductor_Pollicis_Longus 0.77 1
+L_Anconeous 0.77 1
+R_Anconeous 0.77 1
+L_Bicep_Brachii_Long_Head 0.71 1
+R_Bicep_Brachii_Long_Head 0.71 1
+L_Bicep_Brachii_Short_Head 0.75 1
+R_Bicep_Brachii_Short_Head 0.75 1
+L_Brachialis 0.77 1
+R_Brachialis 0.77 1
+L_Brachioradialis 0.69 1
+R_Brachioradialis 0.69 1
+L_Coracobrachialis 0.59 1
+R_Coracobrachialis 0.59 1
+L_Deltoid 0.7 1
+R_Deltoid 0.7 1
+L_Deltoid1 0.8 1
+R_Deltoid1 0.8 1
+L_Deltoid2 0.8 1
+R_Deltoid2 0.8 1
+L_Extensor_Carpi_Radialis_Longus 0.73 1
+R_Extensor_Carpi_Radialis_Longus 0.73 1
+L_Extensor_Carpi_Ulnaris 0.71 1
+R_Extensor_Carpi_Ulnaris 0.71 1
+L_Extensor_Digiti_Minimi 0.72 1
+R_Extensor_Digiti_Minimi 0.72 1
+L_Extensor_Digitorum1 0.71 1
+R_Extensor_Digitorum1 0.71 1
+L_Extensor_Pollicis_Brevis 0.75 1
+R_Extensor_Pollicis_Brevis 0.75 1
+L_Extensor_Pollicis_Longus 0.75 1
+R_Extensor_Pollicis_Longus 0.75 1
+L_Flexor_Carpi_Radialis 0.76 1
+R_Flexor_Carpi_Radialis 0.76 1
+L_Flexor_Carpi_Ulnaris 0.78 1
+R_Flexor_Carpi_Ulnaris 0.78 1
+L_Flexor_Digitorum_Profundus2 0.83 1
+R_Flexor_Digitorum_Profundus2 0.83 1
+L_Flexor_Pollicis_Longus 0.79 1
+R_Flexor_Pollicis_Longus 0.79 1
+L_Infraspinatus1 0.75 1
+R_Infraspinatus1 0.75 1
+L_Latissimus_Dorsi 0.61 1
+R_Latissimus_Dorsi 0.61 1
+L_Latissimus_Dorsi3 0.59 1
+R_Latissimus_Dorsi3 0.59 1
+L_Latissimus_Dorsi5 0.53 1
+R_Latissimus_Dorsi5 0.53 1
+L_Longissimus_Capitis3 0.68 1
+R_Longissimus_Capitis3 0.68 1
+L_Longissimus_Thoracis 0.79 1
+R_Longissimus_Thoracis 0.79 1
+L_Longus_Capitis2 0.73 1
+R_Longus_Capitis2 0.73 1
+L_Multifidus 0.71 1
+R_Multifidus 0.71 1
+L_Omohyoid 0.63 1
+R_Omohyoid 0.63 1
+L_Palmaris_Longus 0.79 1
+R_Palmaris_Longus 0.79 1
+L_Pectoralis_Major 0.6 1
+R_Pectoralis_Major 0.6 1
+L_Pectoralis_Major2 0.6 1
+R_Pectoralis_Major2 0.6 1
+L_Pectoralis_Minor1 0.62 1
+R_Pectoralis_Minor1 0.62 1
+L_Platysma1 0.74 1
+R_Platysma1 0.74 1
+L_Psoas_Minor 0.77 1
+R_Psoas_Minor 0.77 1
+L_Quadratus_Lumborum1 0.75 1
+R_Quadratus_Lumborum1 0.75 1
+L_Quadratus_Lumborum2 0.75 1
+R_Quadratus_Lumborum2 0.75 1
+L_Quadratus_Lumborum3 0.75 1
+R_Quadratus_Lumborum3 0.75 1
+L_Rhomboid_Major2 0.74 1
+R_Rhomboid_Major2 0.74 1
+L_Rhomboid_Minor 0.74 1
+R_Rhomboid_Minor 0.74 1
+L_Scalene_Anterior1 0.76 1
+R_Scalene_Anterior1 0.76 1
+L_Scalene_Middle4 0.76 1
+R_Scalene_Middle4 0.76 1
+L_Semispinalis_Capitis1 0.81 1
+R_Semispinalis_Capitis1 0.81 1
+L_Serratus_Anterior2 0.85 1
+R_Serratus_Anterior2 0.85 1
+L_Serratus_Anterior4 0.72 1
+R_Serratus_Anterior4 0.72 1
+L_Splenius_Capitis1 0.68 1
+R_Splenius_Capitis1 0.68 1
+L_Splenius_Cervicis 0.73 1
+R_Splenius_Cervicis 0.73 1
+L_Splenius_Cervicis1 0.73 1
+R_Splenius_Cervicis1 0.73 1
+L_Sternocleidomastoid1 0.73 1
+R_Sternocleidomastoid1 0.73 1
+L_Subclavian 0.69 1
+R_Subclavian 0.69 1
+L_Subscapularis1 0.73 1
+R_Subscapularis1 0.73 1
+L_Supraspinatus 0.87 1
+R_Supraspinatus 0.87 1
+L_Teres_Major 0.61 1
+R_Teres_Major 0.61 1
+L_Triceps_Lateral_Head 0.73 1
+R_Triceps_Lateral_Head 0.73 1
+L_Triceps_Long_Head 0.73 1
+R_Triceps_Long_Head 0.73 1
+L_Triceps_Medial_Head 0.81 1
+R_Triceps_Medial_Head 0.81 1
+L_iliocostalis 0.85 1
+R_iliocostalis 0.85 1
+L_Rectus_Abdominis1 0.87 1
+R_Rectus_Abdominis1 0.87 1
+L_Serratus_Posterior_Inferior 0.78 1
+R_Serratus_Posterior_Inferior 0.78 1
+L_Transversus_Abdominis 0.73 1
+R_Transversus_Abdominis 0.73 1
+L_Transversus_Abdominis2 0.77 1
+R_Transversus_Abdominis2 0.77 1
+L_Transversus_Abdominis4 0.73 1
+R_Transversus_Abdominis4 0.73 1
+L_Trapezius 0.75 1
+R_Trapezius 0.75 1
+L_Trapezius3 0.77 1
+R_Trapezius3 0.77 1
+L_Trapezius5 0.77 1
+R_Trapezius5 0.77 1
+group R_Adductor_Brevis 0.7 1.0
+group L_Adductor_Brevis 0.7 1.0
+group R_Adductor_Longus 0.7 1.0
+group L_Adductor_Longus 0.7 1.0
+group R_Adductor_Magnus 0.7 1.0
+group L_Adductor_Magnus 0.7 1.0
+group R_Gluteus_Maximus 0.7 1.0
+group L_Gluteus_Maximus 0.7 1.0
+group R_Gluteus_Medius 0.7 1.0
+group L_Gluteus_Medius 0.7 1.0
+group R_Gluteus_Minimus 0.7 1.0
+group L_Gluteus_Minimus 0.7 1.0
+group R_Inferior_Gemellus 0.7 1.0
+group L_Inferior_Gemellus 0.7 1.0
+group R_Obturator_Externus 0.65 1.0
+group L_Obturator_Externus 0.65 1.0
+group R_Obturator_Internus 0.65 1.0
+group L_Obturator_Internus 0.65 1.0
+group R_Pectineus 0.65 1.0
+group L_Pectineus 0.65 1.0
+group R_Piriformis 0.65 1.0
+group L_Piriformis 0.65 1.0
+group R_Psoas_Major 0.65 1.0
+group L_Psoas_Major 0.65 1.0
+group R_Quadratus_Femoris 0.7 1.0
+group L_Quadratus_Femoris 0.7 1.0
+group R_Superior_Gemellus 0.75 1.0
+group L_Superior_Gemellus 0.75 1.0
+group R_iliacus 0.75 1.0
+group L_iliacus 0.75 1.0
+group R_Gastrocnemius 0.76 1.0
+group L_Gastrocnemius 0.76 1.0
+group R_Bicep_Femoris_Short 0.78 1.0
+group L_Bicep_Femoris_Short 0.78 1.0
+group R_Extensor_Digitorum_Longus 0.76 1.0
+group L_Extensor_Digitorum_Longus 0.76 1.0
+group R_Extensor_Hallucis_Longus 0.7 1.0
+group L_Extensor_Hallucis_Longus 0.7 1.0
+group R_Flexor_Digiti_Minimi_Brevis_Foot 0.7 1.0
+group L_Flexor_Digiti_Minimi_Brevis_Foot 0.7 1.0
+group R_Flexor_Digitorum_Longus 0.74 1.0
+group L_Flexor_Digitorum_Longus 0.74 1.0
+group R_Flexor_Hallucis 0.76 1.0
+group L_Flexor_Hallucis 0.76 1.0
+group R_Peroneus_Brevis 0.72 1.0
+group L_Peroneus_Brevis 0.72 1.0
+group R_Peroneus_Longus 0.7 1.0
+group L_Peroneus_Longus 0.7 1.0
+group R_Peroneus_Tertius 0.7 1.0
+group L_Peroneus_Tertius 0.7 1.0
+group R_Soleus 0.8 1.0
+group L_Soleus 0.8 1.0
+group R_Tibialis_Anterior 0.78 1.0
+group L_Tibialis_Anterior 0.78 1.0
+group R_Tibialis_Posterior 0.75 1.0
+group L_Tibialis_Posterior 0.75 1.0
+group R_Vastus_Intermedius 0.8 1.0
+group L_Vastus_Intermedius 0.8 1.0
+group R_Vastus_Lateralis 0.84 1.0
+group L_Vastus_Lateralis 0.84 1.0
+group R_Vastus_Medialis 0.8 1.0
+group L_Vastus_Medialis 0.8 1.0
+L_Bicep_Femoris_Longus 0.73 1
+R_Bicep_Femoris_Longus 0.73 1
+L_Gracilis 0.65 1
+R_Gracilis 0.65 1
+L_Plantaris 0.77 1
+R_Plantaris 0.77 1
+L_Popliteus 0.65 1
+R_Popliteus 0.65 1
+L_Rectus_Femoris 0.77 1
+R_Rectus_Femoris 0.77 1
+L_Rectus_Femoris1 0.77 1
+R_Rectus_Femoris1 0.77 1
+L_Sartorius 0.71 1
+R_Sartorius 0.71 1
+L_Semimembranosus 0.79 1
+R_Semimembranosus 0.79 1
+L_Semimembranosus1 0.79 1
+R_Semimembranosus1 0.79 1
+L_Semitendinosus 0.81 1
+R_Semitendinosus 0.81 1
+L_Tensor_Fascia_Lata 0.71 1
+R_Tensor_Fascia_Lata 0.71 1
+L_Tensor_Fascia_Lata1 0.71 1
+R_Tensor_Fascia_Lata1 0.71 1
+L_Tensor_Fascia_Lata2 0.71 1
+R_Tensor_Fascia_Lata2 0.71 1
+muscle_end
+muscle_force_param
+group R_Adductor_Brevis 0.05 1.0
+group L_Adductor_Brevis 0.05 1.0
+group R_Adductor_Longus 0.05 1.0
+group L_Adductor_Longus 0.05 1.0
+group R_Adductor_Magnus 0.05 1.0
+group L_Adductor_Magnus 0.05 1.0
+group R_Gluteus_Maximus 0.05 1.0
+group L_Gluteus_Maximus 0.05 1.0
+group R_Gluteus_Medius 0.05 1.0
+group L_Gluteus_Medius 0.05 1.0
+group R_Gluteus_Minimus 0.05 1.0
+group L_Gluteus_Minimus 0.05 1.0
+group R_Inferior_Gemellus 0.05 1.0
+group L_Inferior_Gemellus 0.05 1.0
+group R_Obturator_Externus 0.05 1.0
+group L_Obturator_Externus 0.05 1.0
+group R_Obturator_Internus 0.05 1.0
+group L_Obturator_Internus 0.05 1.0
+group R_Pectineus 0.05 1.0
+group L_Pectineus 0.05 1.0
+group R_Piriformis 0.05 1.0
+group L_Piriformis 0.05 1.0
+group R_Psoas_Major 0.05 1.0
+group L_Psoas_Major 0.05 1.0
+group R_Quadratus_Femoris 0.05 1.0
+group L_Quadratus_Femoris 0.05 1.0
+group R_Superior_Gemellus 0.05 1.0
+group L_Superior_Gemellus 0.05 1.0
+group R_iliacus 0.05 1.0
+group L_iliacus 0.05 1.0
+group R_Gastrocnemius 0.05 1.0
+group L_Gastrocnemius 0.05 1.0
+group R_Bicep_Femoris_Short 0.05 1.0
+group L_Bicep_Femoris_Short 0.05 1.0
+group R_Extensor_Digitorum_Longus 0.05 1.0
+group L_Extensor_Digitorum_Longus 0.05 1.0
+group R_Extensor_Hallucis_Longus 0.05 1.0
+group L_Extensor_Hallucis_Longus 0.05 1.0
+group R_Flexor_Digiti_Minimi_Brevis_Foot 0.05 1.0
+group L_Flexor_Digiti_Minimi_Brevis_Foot 0.05 1.0
+group R_Flexor_Digitorum_Longus 0.05 1.0
+group L_Flexor_Digitorum_Longus 0.05 1.0
+group R_Flexor_Hallucis 0.05 1.0
+group L_Flexor_Hallucis 0.05 1.0
+group R_Peroneus_Brevis 0.05 1.0
+group L_Peroneus_Brevis 0.05 1.0
+group R_Peroneus_Longus 0.05 1.0
+group L_Peroneus_Longus 0.05 1.0
+group R_Peroneus_Tertius 0.05 1.0
+group L_Peroneus_Tertius 0.05 1.0
+group R_Soleus 0.05 1.0
+group L_Soleus 0.05 1.0
+group R_Tibialis_Anterior 0.05 1.0
+group L_Tibialis_Anterior 0.05 1.0
+group R_Tibialis_Posterior 0.05 1.0
+group L_Tibialis_Posterior 0.05 1.0
+group R_Vastus_Intermedius 0.05 1.0
+group L_Vastus_Intermedius 0.05 1.0
+group R_Vastus_Lateralis 0.05 1.0
+group L_Vastus_Lateralis 0.05 1.0
+group R_Vastus_Medialis 0.05 1.0
+group L_Vastus_Medialis 0.05 1.0
+L_ab1 0.05 1
+R_ab1 0.05 1
+L_ab2 0.05 1
+R_ab2 0.05 1
+L_ab3 0.05 1
+R_ab3 0.05 1
+L_ab4 0.05 1
+R_ab4 0.05 1
+L_ab5 0.05 1
+R_ab5 0.05 1
+L_Internal_Oblique 0.05 1
+R_Internal_Oblique 0.05 1
+L_Internal_Oblique1 0.05 1
+R_Internal_Oblique1 0.05 1
+L_Internal_Oblique2 0.05 1
+R_Internal_Oblique2 0.05 1
+L_Abductor_Pollicis_Longus 0.05 1
+R_Abductor_Pollicis_Longus 0.05 1
+L_Anconeous 0.05 1
+R_Anconeous 0.05 1
+L_Bicep_Brachii_Long_Head 0.05 1
+R_Bicep_Brachii_Long_Head 0.05 1
+L_Bicep_Brachii_Short_Head 0.05 1
+R_Bicep_Brachii_Short_Head 0.05 1
+L_Brachialis 0.05 1
+R_Brachialis 0.05 1
+L_Brachioradialis 0.05 1
+R_Brachioradialis 0.05 1
+L_Coracobrachialis 0.05 1
+R_Coracobrachialis 0.05 1
+L_Deltoid 0.05 1
+R_Deltoid 0.05 1
+L_Deltoid1 0.05 1
+R_Deltoid1 0.05 1
+L_Deltoid2 0.05 1
+R_Deltoid2 0.05 1
+L_Extensor_Carpi_Radialis_Longus 0.05 1
+R_Extensor_Carpi_Radialis_Longus 0.05 1
+L_Extensor_Carpi_Ulnaris 0.05 1
+R_Extensor_Carpi_Ulnaris 0.05 1
+L_Extensor_Digiti_Minimi 0.05 1
+R_Extensor_Digiti_Minimi 0.05 1
+L_Extensor_Digitorum1 0.05 1
+R_Extensor_Digitorum1 0.05 1
+L_Extensor_Pollicis_Brevis 0.05 1
+R_Extensor_Pollicis_Brevis 0.05 1
+L_Extensor_Pollicis_Longus 0.05 1
+R_Extensor_Pollicis_Longus 0.05 1
+L_Flexor_Carpi_Radialis 0.05 1
+R_Flexor_Carpi_Radialis 0.05 1
+L_Flexor_Carpi_Ulnaris 0.05 1
+R_Flexor_Carpi_Ulnaris 0.05 1
+L_Flexor_Digitorum_Profundus2 0.05 1
+R_Flexor_Digitorum_Profundus2 0.05 1
+L_Flexor_Pollicis_Longus 0.05 1
+R_Flexor_Pollicis_Longus 0.05 1
+L_Infraspinatus1 0.05 1
+R_Infraspinatus1 0.05 1
+L_Latissimus_Dorsi 0.05 1
+R_Latissimus_Dorsi 0.05 1
+L_Latissimus_Dorsi3 0.05 1
+R_Latissimus_Dorsi3 0.05 1
+L_Latissimus_Dorsi5 0.05 1
+R_Latissimus_Dorsi5 0.05 1
+L_Longissimus_Capitis3 0.05 1
+R_Longissimus_Capitis3 0.05 1
+L_Longissimus_Thoracis 0.05 1
+R_Longissimus_Thoracis 0.05 1
+L_Longus_Capitis2 0.05 1
+R_Longus_Capitis2 0.05 1
+L_Multifidus 0.05 1
+R_Multifidus 0.05 1
+L_Omohyoid 0.05 1
+R_Omohyoid 0.05 1
+L_Palmaris_Longus 0.05 1
+R_Palmaris_Longus 0.05 1
+L_Pectoralis_Major 0.05 1
+R_Pectoralis_Major 0.05 1
+L_Pectoralis_Major2 0.05 1
+R_Pectoralis_Major2 0.05 1
+L_Pectoralis_Minor1 0.05 1
+R_Pectoralis_Minor1 0.05 1
+L_Platysma1 0.05 1
+R_Platysma1 0.05 1
+L_Psoas_Minor 0.05 1
+R_Psoas_Minor 0.05 1
+L_Quadratus_Lumborum1 0.05 1
+R_Quadratus_Lumborum1 0.05 1
+L_Quadratus_Lumborum2 0.05 1
+R_Quadratus_Lumborum2 0.05 1
+L_Quadratus_Lumborum3 0.05 1
+R_Quadratus_Lumborum3 0.05 1
+L_Rhomboid_Major2 0.05 1
+R_Rhomboid_Major2 0.05 1
+L_Rhomboid_Minor 0.05 1
+R_Rhomboid_Minor 0.05 1
+L_Scalene_Anterior1 0.05 1
+R_Scalene_Anterior1 0.05 1
+L_Scalene_Middle4 0.05 1
+R_Scalene_Middle4 0.05 1
+L_Semispinalis_Capitis1 0.05 1
+R_Semispinalis_Capitis1 0.05 1
+L_Serratus_Anterior2 0.05 1
+R_Serratus_Anterior2 0.05 1
+L_Serratus_Anterior4 0.05 1
+R_Serratus_Anterior4 0.05 1
+L_Splenius_Capitis1 0.05 1
+R_Splenius_Capitis1 0.05 1
+L_Splenius_Cervicis 0.05 1
+R_Splenius_Cervicis 0.05 1
+L_Splenius_Cervicis1 0.05 1
+R_Splenius_Cervicis1 0.05 1
+L_Sternocleidomastoid1 0.05 1
+R_Sternocleidomastoid1 0.05 1
+L_Subclavian 0.05 1
+R_Subclavian 0.05 1
+L_Subscapularis1 0.05 1
+R_Subscapularis1 0.05 1
+L_Supraspinatus 0.05 1
+R_Supraspinatus 0.05 1
+L_Teres_Major 0.05 1
+R_Teres_Major 0.05 1
+L_Triceps_Lateral_Head 0.05 1
+R_Triceps_Lateral_Head 0.05 1
+L_Triceps_Long_Head 0.05 1
+R_Triceps_Long_Head 0.05 1
+L_Triceps_Medial_Head 0.05 1
+R_Triceps_Medial_Head 0.05 1
+L_iliocostalis 0.05 1
+R_iliocostalis 0.05 1
+L_Rectus_Abdominis1 0.05 1
+R_Rectus_Abdominis1 0.05 1
+L_Serratus_Posterior_Inferior 0.05 1
+R_Serratus_Posterior_Inferior 0.05 1
+L_Transversus_Abdominis 0.05 1
+R_Transversus_Abdominis 0.05 1
+L_Transversus_Abdominis2 0.05 1
+R_Transversus_Abdominis2 0.05 1
+L_Transversus_Abdominis4 0.05 1
+R_Transversus_Abdominis4 0.05 1
+L_Trapezius 0.05 1
+R_Trapezius 0.05 1
+L_Trapezius3 0.05 1
+R_Trapezius3 0.05 1
+L_Trapezius5 0.05 1
+R_Trapezius5 0.05 1
+L_Bicep_Femoris_Longus 0.05 1
+R_Bicep_Femoris_Longus 0.05 1
+L_Gracilis 0.05 1
+R_Gracilis 0.05 1
+L_Plantaris 0.05 1
+R_Plantaris 0.05 1
+L_Popliteus 0.05 1
+R_Popliteus 0.05 1
+L_Rectus_Femoris 0.05 1
+R_Rectus_Femoris 0.05 1
+L_Rectus_Femoris1 0.05 1
+R_Rectus_Femoris1 0.05 1
+L_Sartorius 0.05 1
+R_Sartorius 0.05 1
+L_Semimembranosus 0.05 1
+R_Semimembranosus 0.05 1
+L_Semimembranosus1 0.05 1
+R_Semimembranosus1 0.05 1
+L_Semitendinosus 0.05 1
+R_Semitendinosus 0.05 1
+L_Tensor_Fascia_Lata 0.05 1
+R_Tensor_Fascia_Lata 0.05 1
+L_Tensor_Fascia_Lata1 0.05 1
+R_Tensor_Fascia_Lata1 0.05 1
+L_Tensor_Fascia_Lata2 0.05 1
+R_Tensor_Fascia_Lata2 0.05 1
+muscle_force_end
+skel_length_param
+global 0.85 1.0
+Head 0.9 1.0
+FemurL 0.9 1.0
+FemurR 0.9 1.0
+TibiaL 0.9 1.0
+TibiaR 0.9 1.0
+skel_length_end
+# simple_motion_file /data/SimpleMotionSet.txt /data/JointMap.txt
+skeleton_parameter_file /data/SkeletonParameter.xml

@@ -1,0 +1,57 @@
+state_type 11
+phase_type 1
+metabolic_type 4
+selfcollision false
+action_type 0
+use_abs_step false
+use_newspd false
+use_muscle true
+use_excitation false
+use_motionoptimization false
+use_contractilestate true
+use_adaptivesampling false
+use_timewarping true
+use_stepwarping false
+use_sym true
+use_displacement false
+use_stride 0.75 1.25
+use_phase 0.75 1.25
+use_imitation false
+use_locoprin true
+use_init_negative false
+use_critical_damping true
+use_adaptivekp false
+use_passive_regul false
+cascading_type 0
+is_torqueclip false
+rot_diff_weight 1.0
+linear_acc_weight 1.0
+angular_acc_weight 0.0
+metabolic_weight 1.0
+constant_pd_parameter true
+kp 200
+con_hz 30
+sim_hz 480   
+skel_file /data/skeleton_v11.xml
+muscle_file /data/muscle_v6.xml
+bvh_file /data/motion/walk.bvh true
+inference_per_sim 2
+action_scale 0.04
+phase_scale 0.001
+use_newphase false
+joint_param
+joint_end
+muscle_param
+muscle_end
+muscle_force_param
+muscle_force_end
+skel_length_param
+global 0.85 1.0
+Head 0.9 1.0
+FemurL 0.9 1.0
+FemurR 0.9 1.0
+TibiaL 0.9 1.0
+TibiaR 0.9 1.0
+skel_length_end
+# simple_motion_file /data/SimpleMotionSet.txt /data/JointMap.txt
+skeleton_parameter_file /data/SkeletonParameter.xml

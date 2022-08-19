@@ -1,0 +1,39 @@
+build/
+build_debug/
+*.so
+*.a
+export/
+nn/
+.vscode
+python/CMakeFiles/
+python/core
+python/python
+python/render
+__pycache__
+python/cmake_install.cmake
+python/Makefile
+frames/
+output.mp4
+
+# CLion related
+.idea/
+cmake-build-*/
+
+# lsp-server related
+compile_commands.json
+.clangd/
+
+# Ray related
+ray_results/
+prev_ray_results/
+
+# C++ and Python packages
+pkgsrc/
+pkgenv/
+pyenv/
+
+# SLURM output
+slurm-*.out
+
+# Error Log 
+error_log.txt

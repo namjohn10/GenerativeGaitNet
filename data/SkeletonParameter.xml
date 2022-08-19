@@ -1,0 +1,27 @@
+<ModifyInfo>
+	<Bone body="ArmL" info="1 1 1 1.0 0"/>
+	<Bone body="ArmR" info="1 1 1 1.0 0"/>
+	<Bone body="FemurL" info="1 1 1 1.0 0"/>
+	<Bone body="FemurR" info="1 1 1 1.0 0"/>
+	<Bone body="FootPinkyL" info="1 1 1 1.0 0"/>
+	<Bone body="FootPinkyR" info="1 1 1 1.0 0"/>
+	<Bone body="FootThumbL" info="1 1 1 1.0 0"/>
+	<Bone body="FootThumbR" info="1 1 1 1.0 0"/>
+	<Bone body="ForeArmL" info="1 1 1 1.0 0"/>
+	<Bone body="ForeArmR" info="1 1 1 1.0 0"/>
+	<Bone body="HandL" info="1 1 1 1.0 0"/>
+	<Bone body="HandR" info="1 1 1 1.0 0"/>
+	<Bone body="Head" info="1 1 1 1.0 0"/>
+	<Bone body="Neck" info="1 1 1 1.0 0"/>
+	<Bone body="Pelvis" info="1 1 1 1.0 0"/>
+	<Bone body="ShoulderL" info="1 1 1 1.0 0"/>
+	<Bone body="ShoulderR" info="1 1 1 1.0 0"/>
+	<Bone body="Spine" info="1 1 1 1.0 0"/>
+	<Bone body="TalusL" info="1 1 1 1.0 0"/>
+	<Bone body="TalusR" info="1 1 1 1.0 0"/>
+	<Bone body="TibiaL" info="1 1 1 1.0 0"/>
+	<Bone body="TibiaR" info="1 1 1 1.0 0"/> 
+	<Bone body="Torso" info="1 1 1 1.0 0"/>
+	<Bone body="HeelL" info="1 1 1 1.0 0"/>
+	<Bone body="HeelR" info="1 1 1 1.0 0"/>
+</ModifyInfo>

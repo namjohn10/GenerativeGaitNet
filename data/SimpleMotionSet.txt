@@ -1,0 +1,528 @@
+p T_Pose
+p Stand_Pose
+
+p right_shoulder_abduction
+p right_shoulder_adduction
+p right_shoulder_flexion
+p right_shoulder_extension
+p right_shoulder_horizontal_abduction
+p right_shoulder_horizontal_adduction
+p right_elbow_extension
+p right_elbow_flexion
+p right_wrist_flexion
+p right_wrist_extension
+
+
+p right_hip_flexion
+p right_hip_extensor
+p right_hip_med_rot
+p right_hip_lat_rot
+p right_hip_abd
+p right_hip_add
+
+
+p right_knee_extensor_with_0_hip_angle
+p right_knee_extensor_with_90_hip_angle
+p right_knee_flexor_with_0_hip_angle
+p right_knee_flexor_with_90_hip_angle
+
+p right_ankle_flexion_with_90_knee_angle
+p right_ankle_flexion_with_0_knee_angle
+
+p left_shoulder_abduction
+p left_shoulder_adduction
+p left_shoulder_flexion
+p left_shoulder_extension
+p left_shoulder_horizontal_abduction
+p left_shoulder_horizontal_adduction
+p left_elbow_extension
+p left_elbow_flexion
+p left_wrist_flexion
+p left_wrist_extension
+
+
+p left_hip_flexion
+p left_hip_extensor
+p left_hip_med_rot
+p left_hip_lat_rot
+p left_hip_abd
+p left_hip_add
+
+
+p left_knee_extensor_with_0_hip_angle
+p left_knee_extensor_with_90_hip_angle
+p left_knee_flexor_with_0_hip_angle
+p left_knee_flexor_with_90_hip_angle
+
+p left_ankle_flexion_with_90_knee_angle
+p left_ankle_flexion_with_0_knee_angle
+
+!-----------------------------------------------------
+
+n T_Pose
+
+n Stand_Pose
+c R_Arm_ZRot 90 90
+c L_Arm_ZRot -90 -90
+
+n right_shoulder_abduction
+c R_Arm_ZRot 90 -70
+m R_Deltoid1
+m R_Deltoid2
+m R_Supraspinatus
+
+n right_shoulder_adduction
+c R_Arm_ZRot -70 90
+m R_Pectoralis_Major
+m R_Pectoralis_Major2
+m R_Latissimus_Dorsi
+m R_Latissimus_Dorsi3
+m R_Latissimus_Dorsi5
+
+n right_shoulder_flexion
+c R_Arm_ZRot 90 90
+c R_Arm_XRot 0 -90
+c R_Arm_YRot 0 70
+m R_Deltoid
+
+n right_shoulder_extension
+c R_Arm_ZRot 90 90
+c R_Arm_XRot -90 0
+c R_Arm_YRot 90 0
+m R_Latissimus_Dorsi
+m R_Latissimus_Dorsi3
+m R_Latissimus_Dorsi5
+m R_Teres_Major
+
+n right_shoulder_horizontal_abduction  << FiX ME
+c R_Arm_YRot 90 -90
+m R_Latissimus_Dorsi
+m R_Latissimus_Dorsi3
+m R_Latissimus_Dorsi5
+m R_Deltoid2
+
+n right_shoulder_horizontal_adduction
+c R_Arm_YRot -90 90
+m R_Pectoralis_Major
+m R_Deltoid
+
+n right_elbow_flexion
+c R_Elbow_Flex 0 110
+!m R_Bicep_Brachii_Long_Head
+m R_Bicep_Brachii_Short_Head
+
+n right_elbow_extension
+c R_Elbow_Flex 110 0
+m R_Triceps_Lateral_Head
+m R_Triceps_Long_Head
+m R_Triceps_Medial_Head
+
+n right_wrist_flexion
+c R_Wrist_Flex 0 70
+!m R_Palmaris_Longus
+!m R_Flexor_Carpi_Radialis
+!m R_Flexor_Carpi_Ulnaris
+!m R_Flexor_Digitorum_Profundus2
+!m R_Flexor_Pollicis_Longus
+m R_Wrist_Flexor
+
+n right_wrist_extension
+c R_Wrist_Flex 50 -60
+!m R_Extensor_Carpi_Radialis_Longus
+!m R_Extensor_Digiti_Minimi
+m R_Extensor_Carpi_Ulnaris
+!m R_Extensor_Digitorum1
+!m R_Extensor_Pollicis_Brevis
+!m R_Extensor_Pollicis_Longus
+m R_Wrist_Extensor
+
+!------------------------------------------
+
+n right_hip_flexion
+c R_Hip_Flex 90 -180
+m R_Psoas_Major
+m R_Psoas_Major1
+m R_Psoas_Major2
+m R_iliacus
+m R_iliacus1
+m R_iliacus2
+m R_Rectus_Femoris
+m R_Rectus_Femoris1
+m R_Sartorius
+m R_Tensor_Fascia_Lata1
+
+n right_hip_extensor
+c R_Hip_Flex -180 50
+m R_Bicep_Femoris_Longus
+m R_Semimembranosus
+m R_Semimembranosus1
+m R_Semitendinosus
+m R_Gluteus_Maximus
+m R_Gluteus_Maximus1
+m R_Gluteus_Maximus2
+m R_Gluteus_Maximus3
+m R_Gluteus_Maximus4
+m R_Femur_Ligament1
+
+n right_hip_med_rot
+c R_Hip_Roll -30 60
+m R_Gluteus_Medius
+m R_Pectineus
+
+n right_hip_lat_rot
+c R_Hip_Roll 30 -70
+m R_Gluteus_Maximus1
+m R_Gluteus_Maximus4
+
+
+n right_hip_abd
+c R_Hip_Adduct 20 -90
+m R_Gluteus_Medius1
+m R_Gluteus_Minimus1
+m R_Tensor_Fascia_Lata
+m R_Tensor_Fascia_Lata1
+
+n right_hip_add
+c R_Hip_Adduct -90 20
+m R_Adductor_Longus
+m R_Adductor_Longus1
+m R_Adductor_Brevis
+m R_Adductor_Brevis1
+m R_Adductor_Magnus
+m R_Adductor_Magnus1
+m R_Adductor_Magnus2
+m R_Adductor_Magnus3
+m R_Adductor_Magnus4
+
+!-----------------------------------------------
+n right_knee_extensor_with_0_hip_angle
+c R_Knee_Flex 160 0
+m R_Vastus_Intermedius
+m R_Vastus_Intermedius1
+m R_Vastus_Lateralis
+m R_Vastus_Lateralis1
+m R_Vastus_Medialis
+m R_Vastus_Medialis1
+m R_Vastus_Medialis2
+m R_Rectus_Femoris
+m R_Rectus_Femoris1
+
+n right_knee_extensor_with_90_hip_angle
+c R_Hip_Flex -90 -90
+c R_Knee_Flex 160 0
+m R_Vastus_Intermedius
+m R_Vastus_Intermedius1
+m R_Vastus_Lateralis
+m R_Vastus_Lateralis1
+m R_Vastus_Medialis
+m R_Vastus_Medialis1
+m R_Vastus_Medialis2
+m R_Rectus_Femoris
+m R_Rectus_Femoris1
+
+n right_knee_flexor_with_0_hip_angle
+c R_Knee_Flex 0 160
+m R_Sartorius
+m R_Bicep_Femoris_Longus
+m R_Bicep_Femoris_Short
+m R_Semimembranosus
+m R_Semimembranosus1
+m R_Semitendinosus
+m R_Gastrocnemius_Lateral_Head
+m R_Gastrocnemius_Medial_Head
+m R_Plantaris
+
+n right_knee_flexor_with_90_hip_angle
+c R_Hip_Flex -90 -90
+c R_Knee_Flex 0 160
+m R_Sartorius
+m R_Bicep_Femoris_Longus
+m R_Bicep_Femoris_Short
+m R_Semimembranosus
+m R_Semimembranosus1
+m R_Semitendinosus
+m R_Gastrocnemius_Lateral_Head
+m R_Gastrocnemius_Medial_Head
+m R_Plantaris
+
+
+!-------------------------------
+
+Foot Plantarflexor & Gastrocnemius*, Plantaris*, Soleus \\
+                    & Tibialis posterior,\\ \hline
+
+Foot Dorsiflexor & Tibialis anterior, Extensor hallucis longus, \\
+                  & Extensor digitorum longus, Fibularis tertius\\ \hline
+
+n right_ankle_flexion_with_0_knee_angle
+c R_Ankle_Flex -20 90
+m R_Plantaris
+m R_Soleus
+m R_Soleus1
+m R_Tibialis_Posterior
+
+m R_Tibialis_Anterior
+m R_Extensor_Hallucis_Longus
+m R_Extensor_Digitorum_Longus
+m R_Peroneus_Tertius
+m R_Peroneus_Tertius1
+
+
+n right_ankle_flexion_with_90_knee_angle
+c R_Ankle_Flex -20 90
+c R_Knee_Flex 90 90
+m R_Plantaris
+m R_Soleus
+m R_Soleus1
+m R_Tibialis_Posterior
+
+m R_Tibialis_Anterior
+m R_Extensor_Hallucis_Longus
+m R_Extensor_Digitorum_Longus
+m R_Peroneus_Tertius
+m R_Peroneus_Tertius1
+
+
+n right_staheli_test
+c R_Hip_Flex -70 20
+c L_Hip_Flex -70 -70
+c R_Knee_Flex 10 10
+c L_Knee_Flex 10 10
+
+
+n right_ankle_flexion_with_0_knee_angle
+c R_Ankle_Flex -90 90
+
+
+n bi-popliteal_angle_test
+c R_Hip_Flex -90 -90
+c L_Hip_Flex -90 -90
+c R_Knee_Flex 0 120
+c L_Knee_Flex 120 120
+c Upperbody_Flex 10 10
+
+n thomas_test
+c R_Hip_Flex 0 -150
+c R_Knee_Flex 0 150
+
+!----------------------------------------------------- Copied
+
+n left_shoulder_abduction
+c L_Arm_ZRot 70 -90
+m L_Deltoid1
+m L_Deltoid2
+m L_Supraspinatus
+
+n left_shoulder_adduction
+c L_Arm_ZRot -90 70
+m L_Pectoralis_Major
+m L_Pectoralis_Major2
+m L_Latissimus_Dorsi
+m L_Latissimus_Dorsi3
+m L_Latissimus_Dorsi5
+
+n left_shoulder_flexion
+c L_Arm_ZRot -90 -90
+c L_Arm_XRot 0 -90
+c L_Arm_YRot 0 -70
+m L_Deltoid
+
+n left_shoulder_extension
+c L_Arm_ZRot -90 -90
+c L_Arm_XRot -90 0
+c L_Arm_YRot -70 0
+m L_Latissimus_Dorsi
+m L_Latissimus_Dorsi3
+m L_Latissimus_Dorsi5
+m L_Teres_Major
+
+n left_shoulder_horizontal_abduction  << FiX ME
+c L_Arm_YRot 90 -90
+m L_Latissimus_Dorsi
+m L_Latissimus_Dorsi3
+m L_Latissimus_Dorsi5
+m L_Deltoid2
+
+n left_shoulder_horizontal_adduction
+c L_Arm_YRot -90 90
+m L_Pectoralis_Major
+m L_Deltoid
+
+n left_elbow_flexion
+c L_Elbow_Flex 0 -110
+!m L_Bicep_Brachii_Long_Head
+m L_Bicep_Brachii_Short_Head
+
+n left_elbow_extension
+c L_Elbow_Flex -110 0
+m L_Triceps_Lateral_Head
+m L_Triceps_Long_Head
+m L_Triceps_Medial_Head
+
+n left_wrist_flexion
+c L_Wrist_Flex 0 -70
+!m L_Palmaris_Longus
+!m L_Flexor_Carpi_Radialis
+!m L_Flexor_Carpi_Ulnaris
+!m L_Flexor_Digitorum_Profundus2
+!m L_Flexor_Pollicis_Longus
+m L_Wrist_Flexor
+
+n left_wrist_extension
+c L_Wrist_Flex -50 60
+!m L_Extensor_Carpi_Radialis_Longus
+!m L_Extensor_Digiti_Minimi
+m L_Extensor_Carpi_Ulnaris
+!m L_Extensor_Digitorum1
+!m L_Extensor_Pollicis_Brevis
+!m L_Extensor_Pollicis_Longus
+m L_Wrist_Extensor
+
+!------------------------------------------
+
+n left_hip_flexion
+c L_Hip_Flex 90 -180
+m L_Psoas_Major
+m L_Psoas_Major1
+m L_Psoas_Major2
+m L_iliacus
+m L_iliacus1
+m L_iliacus2
+m L_Rectus_Femoris
+m L_Rectus_Femoris1
+m L_Sartorius
+m L_Tensor_Fascia_Lata1
+
+n left_hip_extensor
+c L_Hip_Flex -180 50
+m L_Bicep_Femoris_Longus
+m L_Semimembranosus
+m L_Semimembranosus1
+m L_Semitendinosus
+m L_Gluteus_Maximus
+m L_Gluteus_Maximus1
+m L_Gluteus_Maximus2
+m L_Gluteus_Maximus3
+m L_Gluteus_Maximus4
+m L_Femur_Ligament1
+
+n left_hip_med_rot
+c L_Hip_Roll 30 -60
+m L_Gluteus_Medius
+m L_Pectineus
+
+n left_hip_lat_rot
+c L_Hip_Roll -30 70
+m L_Gluteus_Maximus1
+m L_Gluteus_Maximus4
+
+
+n left_hip_abd
+c L_Hip_Adduct -20 90
+m L_Gluteus_Medius1
+m L_Gluteus_Minimus1
+m L_Tensor_Fascia_Lata
+m L_Tensor_Fascia_Lata1
+
+n left_hip_add
+c L_Hip_Adduct 90 -20
+m L_Adductor_Longus
+m L_Adductor_Longus1
+m L_Adductor_Brevis
+m L_Adductor_Brevis1
+m L_Adductor_Magnus
+m L_Adductor_Magnus1
+m L_Adductor_Magnus2
+m L_Adductor_Magnus3
+m L_Adductor_Magnus4
+
+!-----------------------------------------------
+n left_knee_extensor_with_0_hip_angle
+c L_Knee_Flex 160 0
+m L_Vastus_Intermedius
+m L_Vastus_Intermedius1
+m L_Vastus_Lateralis
+m L_Vastus_Lateralis1
+m L_Vastus_Medialis
+m L_Vastus_Medialis1
+m L_Vastus_Medialis2
+m L_Rectus_Femoris
+m L_Rectus_Femoris1
+
+n left_knee_extensor_with_90_hip_angle
+c L_Hip_Flex -90 -90
+c L_Knee_Flex 160 0
+m L_Vastus_Intermedius
+m L_Vastus_Intermedius1
+m L_Vastus_Lateralis
+m L_Vastus_Lateralis1
+m L_Vastus_Medialis
+m L_Vastus_Medialis1
+m L_Vastus_Medialis2
+m L_Rectus_Femoris
+m L_Rectus_Femoris1
+
+n left_knee_flexor_with_0_hip_angle
+c L_Knee_Flex 0 160
+m L_Sartorius
+m L_Bicep_Femoris_Longus
+m L_Bicep_Femoris_Short
+m L_Semimembranosus
+m L_Semimembranosus1
+m L_Semitendinosus
+m L_Gastrocnemius_Lateral_Head
+m L_Gastrocnemius_Medial_Head
+m L_Plantaris
+
+n left_knee_flexor_with_90_hip_angle
+c L_Hip_Flex -90 -90
+c L_Knee_Flex 0 160
+m L_Sartorius
+m L_Bicep_Femoris_Longus
+m L_Bicep_Femoris_Short
+m L_Semimembranosus
+m L_Semimembranosus1
+m L_Semitendinosus
+m L_Gastrocnemius_Lateral_Head
+m L_Gastrocnemius_Medial_Head
+m L_Plantaris
+
+
+!-------------------------------
+
+Foot Plantarflexor & Gastrocnemius*, Plantaris*, Soleus \\
+                    & Tibialis posterior,\\ \hline
+
+Foot Dorsiflexor & Tibialis anterior, Extensor hallucis longus, \\
+                  & Extensor digitorum longus, Fibularis tertius\\ \hline
+
+n left_ankle_flexion_with_0_knee_angle
+c L_Ankle_Flex -20 90
+m L_Plantaris
+m L_Soleus
+m L_Soleus1
+m L_Tibialis_Posterior
+
+m L_Tibialis_Anterior
+m L_Extensor_Hallucis_Longus
+m L_Extensor_Digitorum_Longus
+m L_Peroneus_Tertius
+m L_Peroneus_Tertius1
+
+
+n left_ankle_flexion_with_90_knee_angle
+c L_Ankle_Flex -20 90
+c L_Knee_Flex 90 90
+m L_Plantaris
+m L_Soleus
+m L_Soleus1
+m L_Tibialis_Posterior
+
+m L_Tibialis_Anterior
+m L_Extensor_Hallucis_Longus
+m L_Extensor_Digitorum_Longus
+m L_Peroneus_Tertius
+m L_Peroneus_Tertius1
+
+n left_ankle_flexion_with_0_knee_angle
+c L_Ankle_Flex -90 90
